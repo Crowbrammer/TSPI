@@ -1,15 +1,16 @@
 from kivy.app import App
-from kivy.uix.widget import Widget
+from kivy.uix.boxlayout import BoxLayout
+from kivy.uix.button import Button
 
 
-class PongGame(Widget):
+class TSPILayout(BoxLayout):
     pass
 
 
-class PongApp(App):
+class TSPIApp(App):
     def build(self):
-        return PongGame()
+        return TSPILayout()
 
 
 if __name__ == '__main__':
-    PongApp().run()
+    TSPIApp().run()
