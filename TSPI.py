@@ -3,13 +3,13 @@ from kivy.uix.boxlayout import BoxLayout
 from kivy.uix.button import Button
 
 
-class PositionerLayout(BoxLayout):
+class TSPILayout(BoxLayout):
     pass
 
 
 class TSPIApp(App):
     def build(self):
-        return PositionerLayout()
+        return TSPILayout()
 
 
 if __name__ == '__main__':
